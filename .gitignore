@@ -1,0 +1,23 @@
+# Virtual environment
+projectftdvenv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Generated output
+data/retail_db_json/
+
+# Course dataset
+data/retail_db/*/part-*
+data/retail_db/create_db_tables_pg.sql
+data/retail_db/load_db_tables_pg.sql
+
+# Keep schema metadata
+!data/retail_db/schemas.json
